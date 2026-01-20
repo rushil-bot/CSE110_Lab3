@@ -18,4 +18,8 @@ public class Model {
     public List<Expense> getExpenses() {
         return repository.getExpenses();
     }
+
+    public double getTotalSpending(){
+        return repository.getTotal();
+    }
 }

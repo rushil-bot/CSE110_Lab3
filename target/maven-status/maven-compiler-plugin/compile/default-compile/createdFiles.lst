@@ -1,9 +1,9 @@
 edu\ucsd\spendingtracker\datasource\InMemoryDataSource.class
-edu\ucsd\spendingtracker\App.class
 edu\ucsd\spendingtracker\model\Expense.class
 edu\ucsd\spendingtracker\model\Category.class
+edu\ucsd\spendingtracker\presenter\SpendingPresenter.class
+edu\ucsd\spendingtracker\App.class
 module-info.class
 edu\ucsd\spendingtracker\repository\ExpenseRepository.class
-edu\ucsd\spendingtracker\presenter\SpendingPresenter.class
 edu\ucsd\spendingtracker\view\SpendingView.class
 edu\ucsd\spendingtracker\model\Model.class

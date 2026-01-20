@@ -19,4 +19,12 @@ public class ExpenseRepository {
     public List<Expense> getExpenses() {
         return dataSource.getExpenses();
     }
+
+    public double getTotal(){
+        double total = 0;
+        for (Expense expense : dataSource.getExpenses()){
+            total += expense.getAmount();
+        }
+        return total;
+    }
 }

@@ -3,7 +3,12 @@ c:\Users\rghax\CodingProjects\CSE110\Lab3\CSE110_Lab3\src\main\java\edu\ucsd\spe
 c:\Users\rghax\CodingProjects\CSE110\Lab3\CSE110_Lab3\src\main\java\edu\ucsd\spendingtracker\model\Category.java
 c:\Users\rghax\CodingProjects\CSE110\Lab3\CSE110_Lab3\src\main\java\edu\ucsd\spendingtracker\model\Expense.java
 c:\Users\rghax\CodingProjects\CSE110\Lab3\CSE110_Lab3\src\main\java\edu\ucsd\spendingtracker\model\Model.java
+c:\Users\rghax\CodingProjects\CSE110\Lab3\CSE110_Lab3\src\main\java\edu\ucsd\spendingtracker\presenter\AbstractPresenter.java
+c:\Users\rghax\CodingProjects\CSE110\Lab3\CSE110_Lab3\src\main\java\edu\ucsd\spendingtracker\presenter\PresenterManager.java
+c:\Users\rghax\CodingProjects\CSE110\Lab3\CSE110_Lab3\src\main\java\edu\ucsd\spendingtracker\presenter\PresenterSwitcher.java
 c:\Users\rghax\CodingProjects\CSE110\Lab3\CSE110_Lab3\src\main\java\edu\ucsd\spendingtracker\presenter\SpendingPresenter.java
+c:\Users\rghax\CodingProjects\CSE110\Lab3\CSE110_Lab3\src\main\java\edu\ucsd\spendingtracker\presenter\SummaryPresenter.java
 c:\Users\rghax\CodingProjects\CSE110\Lab3\CSE110_Lab3\src\main\java\edu\ucsd\spendingtracker\repository\ExpenseRepository.java
 c:\Users\rghax\CodingProjects\CSE110\Lab3\CSE110_Lab3\src\main\java\edu\ucsd\spendingtracker\view\SpendingView.java
+c:\Users\rghax\CodingProjects\CSE110\Lab3\CSE110_Lab3\src\main\java\edu\ucsd\spendingtracker\view\SummaryView.java
 c:\Users\rghax\CodingProjects\CSE110\Lab3\CSE110_Lab3\src\main\java\module-info.java

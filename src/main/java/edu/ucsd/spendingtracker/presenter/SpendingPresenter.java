@@ -4,15 +4,24 @@ import edu.ucsd.spendingtracker.model.Expense;
 import edu.ucsd.spendingtracker.model.Model;
 import edu.ucsd.spendingtracker.view.SpendingView;
 
-public class SpendingPresenter {
-    private final Model model;
-    private final SpendingView view;
+public class SpendingPresenter extends AbstractPresenter<SpendingView> {
+    private Runnable onShowSummary;
+
     public SpendingPresenter(Model model, SpendingView view) {
-        this.model = model;
-        this.view = view;
+        super(model, view);
+        this.view.getSummaryButton().setOnAction(e -> {
+            if (onShowSummary != null)
+                onShowSummary.run();
+        });
+
         updateView();
     }
 
+    public void setOnShowSummary(Runnable action) {
+        this.onShowSummary = action;
+    }
+
+    @Override
     public String getViewTitle() {
         return "Expenses";
     }

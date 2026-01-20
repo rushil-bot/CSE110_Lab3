@@ -1,12 +1,18 @@
 package edu.ucsd.spendingtracker.view;
-import javafx.geometry.*;
-import javafx.scene.control.*;
-import javafx.scene.layout.*;
-import javafx.scene.text.*;
+import javafx.geometry.Insets;
+import javafx.geometry.Pos;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.ScrollPane;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
+import javafx.scene.text.Text;
 
 
 public class SpendingView extends BorderPane {
     private VBox listContainer;
+    private Button summaryButton;
 
 
     public SpendingView() {
@@ -22,9 +28,11 @@ public class SpendingView extends BorderPane {
         scroller.setFitToWidth(true);
         scroller.setStyle("-fx-background-color: transparent; -fx-background: #FFFFFF;");
 
+        summaryButton = new Button("Summary");
 
         this.setTop(headerBox);
         this.setCenter(scroller);
+        this.setBottom(summaryButton);
         this.setPadding(new Insets(0, 25, 20, 25));
         this.setStyle("-fx-background-color: #FFFFFF;");
     }
@@ -49,5 +57,9 @@ public class SpendingView extends BorderPane {
 
         row.getChildren().addAll(new Label(idx + "."), nameL, catL, amtL);
         listContainer.getChildren().add(row);
+    }
+
+    public Button getSummaryButton() {
+        return summaryButton;
     }
 }
